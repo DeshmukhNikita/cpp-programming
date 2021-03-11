@@ -20,7 +20,7 @@ using namespace std;
 /*
  * 
  */
-int main() {  // its a predefine method name in c++ complier. and its a starting point of your  project or class.
+int main() { 
     cout << "Welcome \n";
     return 0;
 }
