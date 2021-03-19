@@ -19,7 +19,18 @@
 using namespace std;
 
 int main() {
-    cout <" size of integer is :"<< sizeof(int);
+    nt a,b, quotient, remainder;
+    cout<< " Enter a number a and b:";
+    cin >>a>>b;
+    
+    quotient = a/b;
+    remainder = a%b;
+
+    cout << "Quotient = " << quotient << endl;
+    cout << "Remainder = " << remainder;
+   
+      
+    
 
     return 0;
 }
